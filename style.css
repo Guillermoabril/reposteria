@@ -1,0 +1,16 @@
+.bg-header {
+    background-color: rgb(240, 222, 199);
+}
+
+.bg-imagen-1 {
+    background: url("assets/img/image-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+#titulo{
+    font-family: 'Pacifico', cursive !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.8rem;
+    }
