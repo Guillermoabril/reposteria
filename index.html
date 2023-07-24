@@ -13,12 +13,28 @@
     
     <div class="row bg-header">
         <nav class="nav px-3 mt-3 fw-bold fs-5">
-            <a class="nav-link text-black" aria-current="page" href="#">Historia</a>
-            <a class="nav-link text-black" href="#">Productos</a>
+            <div class="dropdown">
+            <a class="nav-link text-black dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Historia</a>
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item fs-5" type="button">Creación</button></li>
+                <li><button class="dropdown-item fs-5" type="button">Cadena de valores</button></li>
+                <li><button class="dropdown-item fs-5" type="button">Aportes a la comunidad</button></li>
+              </ul>
+            </div>
+            
+            <div class="dropdown">
+                <a class="nav-link text-black dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item fs-5" type="button">Panaderia</button></li>
+                <li><button class="dropdown-item fs-5" type="button">Tortas y ponques</button></li>
+                <li><button class="dropdown-item fs-5" type="button">Aportes a la comunidad</button></li>
+              </ul>
+            </div>
             <a class="nav-link text-black" href="#">Escuela de formación</a>
-            <a class="nav-link text-black">Contactamos</a>
+            <a class="nav-link text-black">Contactanos</a>
           </nav>
-        </div>
+        
+    </div>    
 
     <header class="d-flex align-items-center justify-content-center bg-header pb-2">
         <div class="h1" id="titulo">Reposteria Majo's</div>
